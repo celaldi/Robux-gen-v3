@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build with Buildozer
-        uses: ArtemGr/buildozer-action@v1.6.1
+        uses: ArtemGr/buildozer-action@v1
         with:
           command: buildozer android debug
           repository_display_name: 'Robux Generator v3.1'
